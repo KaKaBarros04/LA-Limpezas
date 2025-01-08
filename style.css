@@ -1,0 +1,78 @@
+ body {
+    background-color: #f4f4f9; /* Cor de fundo suave */
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    color: #333; /* Cor do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin: 0;
+    padding: 0;
+}
+.container {
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 30px;
+    background-color: #fff; /* Fundo branco */
+    margin-bottom: 20px; /* Espaçamento entre seções */
+}
+.navbar {
+    background-color: #007bff; /* Cor de fundo personalizada */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff !important; /* Cor do texto da marca */
+}
+
+.navbar a {
+    color: #fff; /* Cor dos links */
+    transition: color 0.3s ease; /* Transição suave */
+}
+
+.navbar a:hover {
+    color: #ffd700; /* Cor de destaque no hover */
+}
+.btn-info {
+    border-radius: 20px; /* Bordas arredondadas */
+    padding: 10px 30px; /* Tamanho do botão */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-info:hover {
+    background-color: #0056b3; /* Cor de fundo no hover */
+    transform: scale(1.05); /* Leve aumento de tamanho */
+}
+.list-group-item {
+    padding: 15px;
+    border: 1px solid #ddd; /* Borda sutil */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1; /* Cor de fundo no hover */
+}
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte mais moderna */
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra suave nos títulos */
+}
+
+h1 {
+    font-size: 2.5rem; /* Tamanho do título */
+}
+
+h2 {
+    font-size: 2rem; /* Tamanho do subtítulo */
+    color: #007bff; /* Cor personalizada para subtítulos */
+}
+footer {
+    background-color: #333; /* Fundo escuro */
+    color: #ffffff; /* Texto branco */
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}

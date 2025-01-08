@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA Limpezas</title>
+    <link rel="icon" href="va.svg">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid d-flex align-items-center justify-content-center">
+            <!-- Logo -->
+            <img src="LA2.jpg" alt="Logo LA Limpezas" style="width: 500px; height: auto;" class="me-2">
+            <!-- Título -->
+            <span class="navbar-brand mb-0 h1 text-white"></span>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <!-- Apresentação -->
+    <div class="container text-center my-5">
+        <h1>Transformando Espaços com Limpeza</h1>
+        <p>Profissionalismo, qualidade e cuidado em cada detalhe.</p>
+        <a href="#servicos" class="btn btn-info">Conheça nossos serviços</a>
+    </div>
+
+    <!-- Serviços -->
+    <div id="servicos" class="container my-5">
+        <h2 class="text-center mb-4">Nossos Serviços</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h4>Limpeza Residencial</h4>
+                <p>Cuidado especial para a sua casa.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Limpeza Comercial</h4>
+                <p>Soluções práticas para o seu negócio.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Higienização de Estofados</h4>
+                <p>Deixe seus móveis como novos.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Benefícios -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Por que escolher a LA Limpezas?</h2>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Equipe treinada e experiente</li>
+            <li class="list-group-item">Uso de produtos ecológicos</li>
+            <li class="list-group-item">Atendimento personalizado</li>
+        </ul>
+    </div>
+
+    <!-- Depoimentos -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">O que nossos clientes dizem</h2>
+        <div class="card">
+            <div class="card-body text-center">
+                <blockquote class="blockquote">
+                    <p>"A equipe da LA Limpezas transformou minha casa! Super profissionais e cuidadosos."</p>
+                    <footer class="blockquote-footer">Maria S.</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQs -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Perguntas Frequentes</h2>
+        <div class="accordion" id="faqs">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqContent1">
+                        Quanto tempo leva a limpeza?
+                    </button>
+                </h2>
+                <div id="faqContent1" class="accordion-collapse collapse" aria-labelledby="faq1" data-bs-parent="#faqs">
+                    <div class="accordion-body">
+                        O tempo depende do tamanho do ambiente e do serviço solicitado, mas garantimos eficiência e qualidade em cada trabalho.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq2">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqContent2">
+                        Vocês utilizam produtos ecológicos?
+                    </button>
+                </h2>
+                <div id="faqContent2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqs">
+                    <div class="accordion-body">
+                        Sim, utilizamos produtos que respeitam o meio ambiente e são seguros para a sua saúde.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq3">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqContent3">
+                        Quais áreas vocês atendem?
+                    </button>
+                </h2>
+                <div id="faqContent3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqs">
+                    <div class="accordion-body">
+                        Atendemos toda a região metropolitana e estamos sempre expandindo nossos serviços.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulário de Orçamento -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Solicite um Orçamento</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="mb-3">
+                <label for="telefone" class="form-label">Telefone</label>
+                <input type="text" class="form-control" id="telefone" placeholder="Digite seu telefone">
+            </div>
+            <div class="mb-3">
+                <label for="servico" class="form-label">Tipo de Serviço</label>
+                <select class="form-select" id="servico">
+                    <option selected>Selecione</option>
+                    <option value="1">Limpeza Residencial</option>
+                    <option value="2">Limpeza Comercial</option>
+                    <option value="3">Higienização de Estofados</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="3" placeholder="Detalhes adicionais"></textarea>
+            </div>
+            <button type="submit" class="btn btn-info">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container1">
+            <div class="row">
+                <!-- Sobre -->
+                <div class="col-md-4">
+                    <h5>Sobre nós</h5>
+                    <p>Na La Limpezas, acreditamos que um ambiente limpo é essencial para o bem-estar e a produtividade. Fundada há poucos meses, nossa empresa nasceu com o propósito de oferecer serviços de limpeza de alta qualidade, aliados à confiança e à excelência no atendimento.</p>
+                </div>
+
+                <!-- Links úteis -->
+                <div class="col-md-4">
+                    <h5>Links úteis</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Início</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Serviços</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contato -->
+                <div class="col-md-4">
+                    <h5>Contato</h5>
+                    <p>Email: contato@meusite.com</p>
+                    <p>Telefone: (11) 1234-5678</p>
+                    <p>Endereço: Rua Exemplo, 123</p>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p class="mb-0">&copy; 2025 LA Limpezas. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
